@@ -21,8 +21,6 @@ Inbound design ![Inbound design](./data/SimpleIVRDesign.png)
 
 - Create and host a Azure Dev Tunnel. Instructions [here](https://learn.microsoft.com/en-us/azure/developer/dev-tunnels/get-started)
 - [.NET7 Framework](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) (Make sure to install version that corresponds with your visual studio instance, 32 vs 64 bit)
-- To enable dev tunneling, Click `Tools` -> `Options` in Visual Studio 2022.  In the search bar type tunnel, Click the checkbox under `Environment` -> `Preview Features` called `Enable dev tunnels for Web Application`
-	![EnableDevTunnel](./data/EnableDevTunnel.png) 
 - Create `Dev Tunnels`, for more details about [Dev Tunnels.](https://learn.microsoft.com/en-us/aspnet/core/test/dev-tunnels?view=aspnetcore-7.0)  
 	![ViewDevTunnels](./data//ViewDevTunnel.png)   
 	![CreateDevTunnels](./data//CreateDevTunnel.png) 
