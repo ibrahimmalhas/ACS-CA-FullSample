@@ -8,7 +8,10 @@ In this sample, I cover how you can use Call Automation SDK with all its feature
 
 # Design
 
-![design](./data/OutboundCallDesign.png)
+Outbound design ![Outbound design](./data/OutboundCallDesign.png)
+
+Inbound design ![Inbound design](./data/SimpleIVRDesign.png)
+
 
 ## Prerequisites
 
@@ -30,12 +33,11 @@ In this sample, I cover how you can use Call Automation SDK with all its feature
 1. Open an instance of PowerShell, Windows Terminal, Command Prompt or equivalent and navigate to the directory that you'd like to clone the sample to.
 2. git clone https://github.com/ibrahimmalhas/ACS-CA-FullSample.git.
 3. Open the Program.cs file to configure the following settings:
-
- `acsConnectionString`: Azure Communication Service resource's connection string.
- `acsPhonenumber`: Phone number associated with the Azure Communication Service resource. For e.g. "+1425XXXAAAA"
- `targetPhonenumber`: Target phone number to add in the call. For e.g. "+1425XXXAAAA"
- `callbackUriHost`: Base url of the app. (For local development replace the dev tunnel url)
- `ParticipantToAdd`: Phone number to add participant function
+- `acsConnectionString`: Azure Communication Service resource's connection string.
+- `acsPhonenumber`: Phone number associated with the Azure Communication Service resource. For e.g. "+1425XXXAAAA"
+- `targetPhonenumber`: Target phone number to add in the call. For e.g. "+1425XXXAAAA"
+- `callbackUriHost`: Base url of the app. (For local development replace the dev tunnel url)
+- `ParticipantToAdd`: Phone number to add participant function
 
 
 ### Locally running the Call Automation Sample
