@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dbD3NsWY7MPp1wyZ7easr7HYOjZfZUhUDxR1RtrZZhA=",
+  "Source": "CallAutomationApp",
+  "BasePath": "_content/CallAutomationApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
